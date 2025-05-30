@@ -1,0 +1,20 @@
+# PRACTICA 6: Buses de comunicación II (SPI)
+
+El objetivo de esta práctica es entender como funciona el bus SPI con la ayuda de dispositivos reales, como una tarjeta SD y un lector RFID.
+
+## Ejercicio 1: Lectura/Escritura de Memoria SD
+
+En el primer ejercicio, se realiza la lectura de un archivo almacenado en una tarjeta SD conectada mediante el bus SPI. 
+#### Código está en GitHub
+
+### Resultado de la salida
+En la salida hemos podido ver un mensaje de inicialización exitosa, si la tarjeta ha sido detectada correctamente, y seguidamente veremos el contenido  del "archivo.txt" . 
+
+## Ejercicio 2: Lectura de Etiqueta RFID
+En el segundo ejercicio, utilizamos un módulo RFID para detectar tarjetas y leer su identificador único (UID) utilizando el bus SPI.
+#### Código en GitHub
+
+### Resultado de la salida
+El código nos ha funcionado correctamente y hemos podido leer el UID de tarjetas proporcionadas por el profesor e incluso tarjetas personales nuestras. 
+
+> Written with [StackEdit](https://stackedit.io/).
